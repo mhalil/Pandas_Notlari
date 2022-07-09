@@ -1,6 +1,3 @@
-# Pandas_Notlari
-Pandas Türkçe eğitim notlarının paylaşıldığı repo.
-
 # PANDAS KOMUTLARI
 
 # Veri Çerçevesi Oluşturmak ya da İçe Aktarmak

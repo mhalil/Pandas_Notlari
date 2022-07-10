@@ -1,4 +1,4 @@
-# PANDAS KOMUTLARI
+# PANDAS NEDİR?
 
 Pandas Kütüphanesinin ne olduğu ve bu kütüphane ile neler yapılabildiğine dair öğrendiklerimi paylaştığım repo.
 
@@ -22,5 +22,5 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
 
 ## Konular
 
-* [Veri Çerçevesi (Data Frame) Nedir?](Veri_Cercevesi.md)
-* [Excel Verisini Okumak ve Düzenlemek](read_excel.md)
+* [Veri Çerçevesi (Data Frame) Nedir?](01_Veri_Cercevesi.md)
+* [Excel Verisini Okumak ve Düzenlemek](02_read_excel.md)

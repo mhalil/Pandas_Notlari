@@ -351,7 +351,7 @@ df.head()
 | 3   | 2004 | 1222484 | 141538 | 94596  | 100696 | 100801 | 102214 | 105728  | 111102 | 110425  | 98492  | 94840  | 90833 | 71219  |
 | 4   | 2005 | 1244041 | 142311 | 94234  | 100529 | 97441  | 106833 | 108536  | 111066 | 111430  | 103273 | 103310 | 92364 | 72714  |
 
-Excel ve Calc tabloları ile çalışma konusunu daha detaylı olarak inceleyeceğiz. İlgili bağlantıya [buradan](read_excel.md) erişebilirsiniz.
+Excel ve Calc tabloları ile çalışma konusunu daha detaylı olarak inceleyeceğiz. İlgili bağlantıya [buradan](02_read_excel.md) erişebilirsiniz.
 
 ## JSON dosyasını içe aktarmak
 

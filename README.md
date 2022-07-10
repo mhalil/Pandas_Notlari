@@ -3,7 +3,7 @@
 Pandas Kütüphanesinin ne olduğu ve bu kütüphane ile neler yapılabildiğine dair öğrendiklerimi paylaştığım repo.
 
 Pandas, veri işleme ve veri analizi için Python Python programlama dilinde yazılmış olan bir Python kütüphanesidir. 
-Bu kütüphane, **seri (Series)** ve **Veri Çerçevesi (DataFrame)** isimli iki veri yapısının üzerine kurulmuştur. serileri tek boyutlu diziler, veri çerçevelerini ise iki boyutlu matrisler (SQL ya da Excel tabloları) gibi düşünebiliriz.
+Bu kütüphane, **Seriler (Series)** ve **Veri Çerçevesi (DataFrame)** isimli iki veri yapısının üzerine kurulmuştur. serileri tek boyutlu diziler, veri çerçevelerini ise iki boyutlu matrisler (SQL ya da Excel tabloları) gibi düşünebiliriz.
 
 Kütüphane özellikleri
 
@@ -22,4 +22,5 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
 
 ## Konular
 
-* [Veri Çerçevesi Oluşturmak ya da Veriyi İçe Aktarmak](Veri_cercevsi_olustur_veya_ice_aktar.md)
+* [Veri Çerçevesi Oluşturmak ya da Veriyi İçe Aktarmak](Veri_Cercevesi.md)
+* [Excel Verisini Oku, Düzenle](read_excel.md)

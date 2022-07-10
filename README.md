@@ -22,5 +22,5 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
 
 ## Konular
 
-* [Veri Çerçevesi Oluşturmak ya da Veriyi İçe Aktarmak](Veri_Cercevesi.md)
-* [Excel Verisini Oku, Düzenle](read_excel.md)
+* [Veri Çerçevesi (Data Frame) Nedir?](Veri_Cercevesi.md)
+* [Excel Verisini Okumak ve Düzenlemek](read_excel.md)

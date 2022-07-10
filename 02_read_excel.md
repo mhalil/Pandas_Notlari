@@ -1,4 +1,6 @@
-# Excel dosyasını içe aktarmak
+# Excel dosyasını oku ve düzenle
+
+Bu bölümde **Excel** ve **Calc** programları ile oluşturulan hesap tablolarının Veri Çerçevelerine (Data Frame'e) dönüştürülerek çalışmalarımıza dahil edilmesi konusunu detayı olarak inceleyeceğiz.
 
 ## read_excel() fonksiyonu
 

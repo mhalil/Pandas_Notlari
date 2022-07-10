@@ -132,6 +132,22 @@ print(veri.columns)
 Index(['isim', 'yaş', 'iş-meslek'], dtype='object')
 ```
 
+## len() Fonksiyonu
+
+**len()** foknsiyonu, Veri Çerçevesinin kaç satırdan oluştuğunu bildirir.
+
+```python
+print(len(veri))
+```
+
+çıktı;
+
+```python
+10
+```
+
+Çıktıdan anladığımız kadarıyla, **veri** isimli veri çerçevesi, 10 satırlık bir yapıdan oluşuyor.
+
 ## info() Fonksiyonu
 
 **info()** fonksiyonu, Veri Çerçevesinin satır ve sütun sayısı,  başlık tipleri (sayı, metin, ...vb) ve doluluk oranı (boş olmayan hücre sayısı) hakkında bilgi görüntüler. 
@@ -229,6 +245,75 @@ veri.describe()
 
 **max :** yaş isimli sütudaki verilerin en büyük değerini, tanımlar
 
+## shape Metodu
+
+Veri Çerçevesinin yapısını yani satır ve sütun bilgisini öğrenmek için shape metodunu kullanabiliriz.
+
+```python
+print(veri.shape)
+```
+
+çıktı;
+
+```python
+(10,3)
+```
+
+Çıktıdan anladığımıza göre veri isimli veri çerçevesi, 10 satır ve 3 sütundan oluşan bir yapıdır.
+
+## iloc Metodu
+
+Veri Çerçevesindeki istenilen satırı görüntülemek için **iloc** metodu kullanılır. **iloc** kelimesini unutmamak için **İndex Location** yani, **Konum İndeksi/numarası** gibi düşünebilir, kafanıza kodlayabilirsiniz.
+
+```python
+print(veri.iloc[5])
+```
+
+çıktı;
+
+```python
+isim           Sertaç
+yaş                52
+iş-meslek    mühendis
+Name: 5, dtype: object
+```
+
+## loc Metodu
+
+**iloc** metoduna benzer bir metottur ancak **loc** metodunda, görüntülemek istediğimiz satırın indeks ismi yazmalıyız. Elimizde aşağıdaki gibi bir veri çerçevesi olduğunu düşünürsek;
+
+|               | Team           | Number | Position | Age  | Height | Weight | College           | Salary    |
+| ------------- | -------------- | ------ | -------- | ---- | ------ | ------ | ----------------- | --------- |
+| Name          |                |        |          |      |        |        |                   |           |
+| ---           | ---            | ---    | ---      | ---  | ---    | ---    | ---               | ---       |
+| Avery Bradley | Boston Celtics | 0.0    | PG       | 25.0 | 6-2    | 180.0  | Texas             | 7730337.0 |
+| Jae Crowder   | Boston Celtics | 99.0   | SF       | 25.0 | 6-6    | 235.0  | Marquette         | 6796117.0 |
+| John Holland  | Boston Celtics | 30.0   | SG       | 27.0 | 6-5    | 205.0  | Boston University | NaN       |
+| R.J. Hunter   | Boston Celtics | 28.0   | SG       | 22.0 | 6-5    | 185.0  | Georgia State     | 1148640.0 |
+| Jonas Jerebko | Boston Celtics | 8.0    | PF       | 29.0 | 6-10   | 231.0  | NaN               | 5000000.0 |
+
+**John Holland** isimli satır verisine ulaşmak için **loc** metoduna **John Holland** metinsel (string) ibaresini eklemeliyiz.
+
+```python
+print(nba_csv.loc["John Holland"])
+```
+
+çıktı;
+
+```python
+Team           Boston Celtics
+Number                   30.0
+Position                   SG
+Age                      27.0
+Height                    6-5
+Weight                  205.0
+College     Boston University
+Salary                    NaN
+Name: John Holland, dtype: object
+```
+
+
+
 # Harici Dosyaları İçe Aktar
 
 ## CSV Dosyasını İçe Aktarmak
@@ -261,6 +346,28 @@ print(nba_csv)
 | 457 | NaN           | NaN            | NaN    | NaN      | NaN  | NaN    | NaN    | NaN               | NaN       |
 
 458 rows × 9 columns
+
+## index_col Parametresi
+
+Harici kaynaktan veri alarak oluşturulan veri çerçevesinin indeks değerini, istediğimiz sütuna eşitleyebiliriz. Bunu yapmak için **index_col** parametresini kullanmalıyız. Örneğin NBA oyuncularının verileri barındıran CSV uzantılı dosyanın Name Sütununu, veri çerçevemizin indeks sütunu haline getirip veri çerçevemize göz atalım.
+
+```python
+nba_csv = pd.read_csv("nba.csv", index_col="Name")
+nba_csv.head()
+```
+
+çıktı;
+
+|               | Team           | Number | Position | Age  | Height | Weight | College           | Salary    |
+| ------------- | -------------- | ------ | -------- | ---- | ------ | ------ | ----------------- | --------- |
+| Name          |                |        |          |      |        |        |                   |           |
+| Avery Bradley | Boston Celtics | 0.0    | PG       | 25.0 | 6-2    | 180.0  | Texas             | 7730337.0 |
+| Jae Crowder   | Boston Celtics | 99.0   | SF       | 25.0 | 6-6    | 235.0  | Marquette         | 6796117.0 |
+| John Holland  | Boston Celtics | 30.0   | SG       | 27.0 | 6-5    | 205.0  | Boston University | NaN       |
+| R.J. Hunter   | Boston Celtics | 28.0   | SG       | 22.0 | 6-5    | 185.0  | Georgia State     | 1148640.0 |
+| Jonas Jerebko | Boston Celtics | 8.0    | PF       | 29.0 | 6-10   | 231.0  | NaN               | 5000000.0 |
+
+Gördüğünüz gibi artık indeks bilgileri, Oyuncu isimlerine dönüşmüş oldu.
 
 ## read_table() fonksiyonu
 

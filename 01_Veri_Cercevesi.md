@@ -211,7 +211,7 @@ dtype: object
 **describe()** fonksiyonu, sayısal veri barındıran sütunlar hakkında detaylı matematiksel bilgiler verir.
 
 ```python
-veri.describe()
+print(veri.describe())
 ```
 
 çıktı;
@@ -311,8 +311,6 @@ College     Boston University
 Salary                    NaN
 Name: John Holland, dtype: object
 ```
-
-
 
 # Harici Dosyaları İçe Aktar
 

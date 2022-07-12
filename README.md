@@ -7,21 +7,27 @@ Bu kütüphane, **Seriler (Series)** ve **Veri Çerçevesi (DataFrame)** isimli 
 
 Kütüphane özellikleri
 
-* İndeksli DataFrame (veri çerçevesi) objeleri ile veri işlemesi yapabilmek.
-* Hafızadaki veya farklı türlerde bulunan veriyi okuyabilmek ve yazabilmek için araçlar sağlamak.
-* Veri sıralama ve bütünleşik kayıp veri senaryolarına karşı esnek imkanlar sunmak
-* Veri setlerinin tekrar boyutlandırılması veya döndürülmesi.
-* Etiket bazlı dilimleme, özel indeksleme ve büyük veri setlerini ayrıştırmak
-* Veri çerçevesine sütun ekleme veya var olan sütunu çıkarma.
-* Veri gruplama özelliği ile ayırma-uygulama-birleştirme uygulamaları yapılabilmek.
-* Veri setlerini birleştirilmek ve birbirine eklenmek.
-* Çok boyutlu veriden, daha az boyutlu veri elde edilebilmek.
-* Veri filtrelemek.
+- İndeksli DataFrame (veri çerçevesi) objeleri ile veri işlemesi yapabilmek.
+- Hafızadaki veya farklı türlerde bulunan veriyi okuyabilmek ve yazabilmek için araçlar sağlamak.
+- Veri sıralama ve bütünleşik kayıp veri senaryolarına karşı esnek imkanlar sunmak
+- Veri setlerinin tekrar boyutlandırılması veya döndürülmesi.
+- Etiket bazlı dilimleme, özel indeksleme ve büyük veri setlerini ayrıştırmak
+- Veri çerçevesine sütun ekleme veya var olan sütunu çıkarma.
+- Veri gruplama özelliği ile ayırma-uygulama-birleştirme uygulamaları yapılabilmek.
+- Veri setlerini birleştirilmek ve birbirine eklenmek.
+- Çok boyutlu veriden, daha az boyutlu veri elde edilebilmek.
+- Veri filtrelemek.
 
 Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin önemli parçaları CPython ve C üzerinde yazılmışlardır.
 
 ## Konular
 
-* [Veri Çerçevesi (Data Frame) Nedir?](01_Veri_Cercevesi.ipynb)
-* [Verileri İçe Aktar](02_Verileri_ice_aktar.ipynb)
-* [Excel Verisini Okumak ve Düzenlemek](03_read_excel.ipynb)
+* [Veri Çerçevesi (Data Frame) Oluştur](Veri_Cercevesi_Olustur.ipynb)
+* [Veriyi Keşfet (İncele)](Veriyi_Kesfet_incele.ipynb)
+* [Veri Seçim Yöntemleri](Secim_Yontemleri.ipynb)
+* [Veri Sıralama Yöntemleri](Siralama_Yontemleri.ipynb)
+* [Veri Filtreleme Yöntemleri](Filtreleme_Yontemleri.ipynb)
+* [Veri Düzenleme Yöntemleri](Duzenleme_Yontemleri.ipynb)
+* [Veri Temizleme Yöntemleri](Temizleme_Yontemleri.ipynb)
+* [Excel Dosyaları ile Çalışmak](Excel_Dosyasi_ile_Calis.ipynb)
+* 

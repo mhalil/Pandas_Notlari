@@ -1,6 +1,6 @@
 # PANDAS NEDİR?
 
-Pandas Kütüphanesinin ne olduğu ve bu kütüphane ile neler yapılabildiğine dair öğrendiklerimi paylaştığım repo.
+Pandas Kütüphanesinin ne olduğu ve bu kütüphane ile (**Özellikle Veri Çerçevesi (Data Frame) konusunda**) neler yapılabildiğine dair öğrendiklerimi paylaştığım repo.
 
 Pandas, veri işleme ve veri analizi için Python Python programlama dilinde yazılmış olan bir Python kütüphanesidir. 
 Bu kütüphane, **Seriler (Series)** ve **Veri Çerçevesi (DataFrame)** isimli iki veri yapısının üzerine kurulmuştur. serileri tek boyutlu diziler, veri çerçevelerini ise iki boyutlu matrisler (SQL ya da Excel tabloları) gibi düşünebiliriz.
@@ -20,14 +20,20 @@ Kütüphane özellikleri
 
 Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin önemli parçaları CPython ve C üzerinde yazılmışlardır.
 
-## Konular
+## Pandas Veri Çerçevesi (Data Frame) Konu Başlıkları
 
-* [Veri Çerçevesi (Data Frame) Oluştur](Veri_Cercevesi_Olustur.ipynb)
-* [Veriyi Keşfet (İncele)](Veriyi_Kesfet_incele.ipynb)
-* [Veri Seçim Yöntemleri](Secim_Yontemleri.ipynb)
-* [Veri Sıralama Yöntemleri](Siralama_Yontemleri.ipynb)
-* [Veri Filtreleme Yöntemleri](Filtreleme_Yontemleri.ipynb)
-* [Veri Düzenleme Yöntemleri](Duzenleme_Yontemleri.ipynb)
-* [Veri Temizleme Yöntemleri](Temizleme_Yontemleri.ipynb)
+1. [Veri Çerçevesi (Data Frame) Oluştur](01_Veri_Cercevesi_Olustur.ipynb)
+2. [Veriyi Keşfet (İncele)](02_Veriyi_Kesfet_incele.ipynb)
+3. [Veri Seçim Yöntemleri](03_Secim_Yontemleri.ipynb)
+4. [Eksik - Kayıp Veri Yöntemleri](04_Eksik_Kayip_Veri_Yontemleri.ipynb)
+5. [Veri Düzenleme Yöntemleri](05_Duzenleme_Yontemleri.ipynb)
+6. [Veri Sıralama Yöntemleri](06_Siralama_Yontemleri.ipynb)
+7. [Veri Filtreleme Yöntemleri](07_Filtreleme_Yontemleri.ipynb)
+
+### Ek / İlave Detay Bilgi:
+
 * [Excel Dosyaları ile Çalışmak](Excel_Dosyasi_ile_Calis.ipynb)
-* 
+
+```python
+
+```

@@ -29,11 +29,8 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
 5. [Veri Düzenleme Yöntemleri](05_Duzenleme_Yontemleri.ipynb)
 6. [Veri Sıralama Yöntemleri](06_Siralama_Yontemleri.ipynb)
 7. [Veri Filtreleme Yöntemleri](07_Filtreleme_Yontemleri.ipynb)
+8. [Gruplama Yöntemleri](08_Gruplama _Yontemleri.ipynb)
 
 ### Ek / İlave Detay Bilgi:
-
 * [Excel Dosyaları ile Çalışmak](Excel_Dosyasi_ile_Calis.ipynb)
 
-```python
-
-```

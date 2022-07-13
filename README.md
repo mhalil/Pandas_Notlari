@@ -22,15 +22,12 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
 
 ## Pandas Veri Çerçevesi (Data Frame) Konu Başlıkları
 
-1. [Veri Çerçevesi (Data Frame) Oluştur](01_Veri_Cercevesi_Olustur.ipynb)
-2. [Veriyi Keşfet (İncele)](02_Veriyi_Kesfet_incele.ipynb)
-3. [Veri Seçim Yöntemleri](03_Secim_Yontemleri.ipynb)
-4. [Eksik - Kayıp Veri Yöntemleri](04_Eksik_Kayip_Veri_Yontemleri.ipynb)
-5. [Veri Düzenleme Yöntemleri](05_Duzenleme_Yontemleri.ipynb)
-6. [Veri Sıralama Yöntemleri](06_Siralama_Yontemleri.ipynb)
-7. [Veri Filtreleme Yöntemleri](07_Filtreleme_Yontemleri.ipynb)
-8. [Gruplama Yöntemleri](08_Gruplama _Yontemleri.ipynb)
-
-### Ek / İlave Detay Bilgi:
-* [Excel Dosyaları ile Çalışmak](Excel_Dosyasi_ile_Calis.ipynb)
-
+1. [Veri Çerçevesi (Data Frame) Oluştur](Veri_Cercevesi_Olustur.ipynb)
+2. [Excel Dosyaları ile Çalışmak](Excel_Dosyasi_ile_Calis.ipynb)
+3. [Veriyi Keşfet (İncele)](Veriyi_Kesfet_incele.ipynb)
+4. [Veri Seçim Yöntemleri](Secim_Yontemleri.ipynb)
+5. [Eksik - Kayıp Veri Yöntemleri](Eksik_Kayip_Veri_Yontemleri.ipynb)
+6. [Veri Düzenleme Yöntemleri](Duzenleme_Yontemleri.ipynb)
+7. [Veri Sıralama Yöntemleri](Siralama_Yontemleri.ipynb)
+8. [Veri Filtreleme Yöntemleri](Filtreleme_Yontemleri.ipynb)
+9. [Gruplama Yöntemleri](Gruplama_Yontemleri.ipynb)

@@ -159,4 +159,4 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
 
 10. [Pivot_table()(Özet Tablo) Fonksiyonunun Kullanımı](OzetTablo_PivotTable.md)
 
-11. [Melt Fonksiyonu](Melt Fonksiyonu.ipynb)
+11. [Melt Fonksiyonu](Melt_Fonksiyonu.ipynb)

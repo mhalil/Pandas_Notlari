@@ -23,11 +23,142 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
 ## Pandas Veri Çerçevesi (Data Frame) Konu Başlıkları
 
 1. [Veri Çerçevesi (Data Frame) Oluştur](Veri_Cercevesi_Olustur.ipynb)
+   
+   - DataFrame() Fonksiyonu
+   
+   - read_csv() Fonksiyonu
+     
+     - index_col Parametresi
+   
+   - read_table() Fonksiyonu
+     
+     - delimiter Parametresi
+   
+   - read_excel() Fonksiyonu
+   
+   - read_json() Fonksiyonu
+   
+   - read_html() Fonksiyonu
+   
+   - read_clipboard() Fonksiyonu
+
 2. [Excel Dosyaları ile Çalışmak](Excel_Dosyasi_ile_Calis.ipynb)
+   
+   - read_excel() Fonksiyonu
+     
+     - header ve names Parametreleri
+     
+     - sheet_name Parametresi
+     
+     - decimal Parametresi
+
 3. [Veriyi Keşfet (İncele)](Veriyi_Kesfet_incele.ipynb)
+   
+   - head() Fonksiyonu
+   - tail() Fonksiyonu
+   - columns Fonksiyonu
+   - len() Fonksiyonu
+   - info() Fonksiyonu
+   - dtypes Fonksiyonu
+   - describe() Fonksiyonu
+   - shape Fonksiyonu
+   - index Fonksiyonu
+   - isnull() Fonksiyonu
+
 4. [Veri Seçim Yöntemleri](Secim_Yontemleri.ipynb)
+   
+   - iloc[] Metodu
+   - loc[] Metodu
+   - Index() Fonksiyonu
+   - lambda() Fonksiyonu
+   - Sütun Seçimi
+   - at[] metodu
+   - iat[] metodu
+
 5. [Eksik - Kayıp Veri Yöntemleri](Eksik_Kayip_Veri_Yontemleri.ipynb)
+   
+   - isnull() Fonksiyonu
+   
+   - dropna() Fonksiyonu
+     
+     - axis Parametresi
+     
+     - inplace Parametresi
+     
+     - thresh Parametresi
+   
+   - fillna() Fonksiyonu
+     
+     - value Parametresi
+
 6. [Veri Düzenleme Yöntemleri](Duzenleme_Yontemleri.ipynb)
+   
+   - İndeks Değerlerini Ayarlamak
+     
+     - index_col Parametresi
+   
+   - set_index() Fonksiyonu
+   
+   - Sütunları Atla
+     
+     - usecols Parametresi
+   
+   - Satırları Atla
+     
+     - skiprows Parametresi
+   
+   - Sütun Ekle
+   
+   - Satır ya da Sütun Sil
+     
+     - drop() Fonksiyonu
+       
+       - axis Parametresi
+       
+       - inplace Parametresi
+     
+     - drop_duplicates() Fonksiyonu
+       
+       - subset Parametresi
+       
+       - keep Parametresi
+   
+   - String Metotları
+   
+   - Veri Çerçevelerini Birleştir
+     
+     - concat() Fonksiyonu
+     
+     - join() Fonksiyonu
+       
+       - how parametresi
+       
+       - right join
+       
+       - outer join
+       
+       - inner join
+     
+     - merge() Fonksiyonu
+
 7. [Veri Sıralama Yöntemleri](Siralama_Yontemleri.ipynb)
+   
+   - sort_values() Fonksiyonu
+     
+     - ascending Parametresi
+
 8. [Veri Filtreleme Yöntemleri](Filtreleme_Yontemleri.ipynb)
+   
+   - Karşılaştırma Operatorü Kullanımı
+   - between() Fonksiyonu
+   - Mantıksal Operatör Kullanımı
+
 9. [Gruplama Yöntemleri](Gruplama_Yontemleri.ipynb)
+   
+   - groupby() Fonksiyonu
+
+10. [Pivot_table()(Özet Tablo) Fonksiyonunun Kullanımı](OzetTablo_PivotTable.md)
+
+11. [Melt Fonksiyonu](Melt Fonksiyonu.ipynb)
+
+12. 

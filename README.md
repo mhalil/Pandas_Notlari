@@ -71,7 +71,6 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
    - loc[] Metodu
    - Index() Fonksiyonu
    - lambda() Fonksiyonu
-   - Sütun Seçimi
    - at[] metodu
    - iat[] metodu
 
@@ -157,6 +156,6 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
    
    - groupby() Fonksiyonu
 
-10. [Pivot_table()(Özet Tablo) Fonksiyonunun Kullanımı](OzetTablo_PivotTable.md)
+10. [pivot_table() Fonksiyonunun Kullanımı](OzetTablo_PivotTable.md)
 
-11. [Melt Fonksiyonu](Melt_Fonksiyonu.ipynb)
+11. [melt() Fonksiyonu](Melt_Fonksiyonu.ipynb)

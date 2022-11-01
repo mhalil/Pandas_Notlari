@@ -138,7 +138,26 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
        
        - inner join
      
-     - merge() Fonksiyonu
+     - [merge() Fonksiyonu](merge_Fonksiyonu.ipynb)
+       
+       - on Parametresi
+       
+       - how Parametresi
+         
+         - inner Seçeneği
+         
+         - outer Seçeneği
+         
+         - left Seçeneği
+         
+         - right Seçeneği
+         
+         - cross Seçeneği
+       
+       - left_on Parametresi
+       
+       - right_on Parametresi
+       * suffixes Parametresi 
 
 7. [Veri Sıralama Yöntemleri](Siralama_Yontemleri.ipynb)
    

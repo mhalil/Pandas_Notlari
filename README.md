@@ -161,9 +161,16 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
 
 7. [Veri Sıralama Yöntemleri](Siralama_Yontemleri.ipynb)
    
-   - sort_values() Fonksiyonu
+   - sort_index() Fonksiyonu
      
      - ascending Parametresi
+     - axis Parametresi
+   
+   - sort_values() Fonksiyonu
+     
+     - by Parametresi
+     - ascending Parametresi
+     - - na_position Parametresi
 
 8. [Veri Filtreleme Yöntemleri](Filtreleme_Yontemleri.ipynb)
    

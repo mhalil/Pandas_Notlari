@@ -125,6 +125,8 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
    
    - String Metotları
    
+   - apply() Fonksiyonu
+   
    - Veri Çerçevelerini Birleştir
      
      - concat() Fonksiyonu

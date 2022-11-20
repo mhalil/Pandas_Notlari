@@ -64,6 +64,7 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
    - shape Fonksiyonu
    - index Fonksiyonu
    - isnull() Fonksiyonu
+   - value_counts() Fonksiyonu
 
 4. [Veri Seçim Yöntemleri](Secim_Yontemleri.ipynb)
    

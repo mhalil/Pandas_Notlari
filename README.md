@@ -90,6 +90,7 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
    - fillna() Fonksiyonu
      
      - value Parametresi
+     - method Parametresi
 
 6. [Veri Düzenleme Yöntemleri](Duzenleme_Yontemleri.ipynb)
    
@@ -124,6 +125,8 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
        - keep Parametresi
    
    - String Metotları
+   
+   - transpose() Fonksiyonu
    
    - apply() Fonksiyonu
    

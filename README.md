@@ -22,7 +22,7 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
 
 ## Pandas Veri Çerçevesi (Data Frame) Konu Başlıkları
 
-1. [Veri Çerçevesi (Data Frame) Oluştur](Veri_Cercevesi_Olustur.ipynb)
+1. [Veri Çerçevesi (Data Frame) Oluştur](01_Veri_Cercevesi_Olustur.ipynb)
    
    - DataFrame() Fonksiyonu
    
@@ -42,7 +42,7 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
    
    - read_clipboard() Fonksiyonu
 
-2. [Excel Dosyaları ile Çalışmak](Excel_Dosyasi_ile_Calis.ipynb)
+2. [Excel Dosyaları ile Çalışmak](02_Excel_Dosyasi_ile_Calis.ipynb)
    
    - read_excel() Fonksiyonu
      
@@ -52,7 +52,7 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
      
      - decimal Parametresi
 
-3. [Veriyi Keşfet (İncele)](Veriyi_Kesfet_incele.ipynb)
+3. [Veriyi Keşfet (İncele)](03_Veriyi_Kesfet_incele.ipynb)
    
    - head() Fonksiyonu
    - tail() Fonksiyonu
@@ -66,7 +66,7 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
    - isnull() Fonksiyonu
    - value_counts() Fonksiyonu
 
-4. [Veri Seçim Yöntemleri](Secim_Yontemleri.ipynb)
+4. [Veri Seçim Yöntemleri](04_Secim_Yontemleri.ipynb)
    
    - iloc[] Metodu
    - loc[] Metodu
@@ -75,7 +75,7 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
    - at[] metodu
    - iat[] metodu
 
-5. [Eksik - Kayıp Veri Yöntemleri](Eksik_Kayip_Veri_Yontemleri.ipynb)
+5. [Eksik - Kayıp Veri Yöntemleri](05_Eksik_Kayip_Veri_Yontemleri.ipynb)
    
    - isnull() Fonksiyonu
    
@@ -92,7 +92,7 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
      - value Parametresi
      - method Parametresi
 
-6. [Veri Düzenleme Yöntemleri](Duzenleme_Yontemleri.ipynb)
+6. [Veri Düzenleme Yöntemleri](06_Duzenleme_Yontemleri.ipynb)
    
    - İndeks Değerlerini Ayarlamak
      
@@ -144,7 +144,7 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
        
        - inner join
      
-     - [merge() Fonksiyonu](merge_Fonksiyonu.ipynb)
+     - merge() Fonksiyonu
        
        - on Parametresi
        
@@ -165,7 +165,7 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
        - right_on Parametresi
        * suffixes Parametresi 
 
-7. [Veri Sıralama Yöntemleri](Siralama_Yontemleri.ipynb)
+7. [Veri Sıralama Yöntemleri](07_Siralama_Yontemleri.ipynb)
    
    - sort_index() Fonksiyonu
      
@@ -178,16 +178,39 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
      - ascending Parametresi
      - - na_position Parametresi
 
-8. [Veri Filtreleme Yöntemleri](Filtreleme_Yontemleri.ipynb)
+8. [Veri Filtreleme Yöntemleri](08_Filtreleme_Yontemleri.ipynb)
    
    - Karşılaştırma Operatorü Kullanımı
    - between() Fonksiyonu
    - Mantıksal Operatör Kullanımı
 
-9. [Gruplama Yöntemleri](Gruplama_Yontemleri.ipynb)
+9. [Gruplama Yöntemleri](09_Gruplama_Yontemleri.ipynb)
    
    - groupby() Fonksiyonu
 
-10. [pivot_table() Fonksiyonunun Kullanımı](OzetTablo_PivotTable.md)
+10. [pivot_table() Fonksiyonunun Kullanımı](10_pivot_table() Fonksiyonunun Kullanımı.ipynb)
 
-11. [melt() Fonksiyonu](Melt_Fonksiyonu.ipynb)
+11. [melt() Fonksiyonu](11_Melt_Fonksiyonu.ipynb)
+
+12. [Operator_Kullanımı](12_Operator_Kullanimi.ipynb)
+    
+    - Aritmetik İşlem Operatörleri
+      
+      - sum() Metodu
+      - mean() Metodu
+    
+    - Toplama, Çıkarma, Çarpma ve Bölme İşlemleri
+      
+      - Toplama Operatörü
+      - Çıkarma Operatörü
+      - Çarpma Operatörü
+      - Bölme Operatörü
+    
+    - Mantıksal / Karşılaştırma Operatörleri
+      
+      - Büyüktür (>),
+      - Küçüktür (<),
+      - Eşittir (==),
+      - Eşit Değildir (!=),
+      - İçerir (contains),
+      - İçermez / Değil (not)

@@ -188,7 +188,7 @@ Kütüphane performans konusunda son derece iyidir. Bu yüzden kütüphanenin ö
    
    - groupby() Fonksiyonu
 
-10. [pivot_table() Fonksiyonunun Kullanımı](10_pivot_table() Fonksiyonunun Kullanımı.ipynb)
+10. [pivot_table() Fonksiyonunun Kullanımı](10_pivot_table_Fonk_Kullanimi.ipynb)
 
 11. [melt() Fonksiyonu](11_Melt_Fonksiyonu.ipynb)
 
